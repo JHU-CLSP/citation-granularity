@@ -4,7 +4,7 @@ This repository contains the code and data for the paper **Are Finer Citations A
 
 Our framework evaluates LLM-generated citations by supporting generation with configurable citation granularities ($k$) and volume-controlled stratification. It includes an automated LLM evaluation pipeline for scoring attribution quality (**Citation Precision**, **Citation Recall**, **Citation F1**) and **Answer Correctness**.
 
-> **Acknowledgment:** This codebase is heavily adapted from the [LongBench-Cite repository](https://github.com/THUDM/LongBench-Cite). We extend their foundational evaluation framework to support variable citation chunking (granularity control) and volume-controlled analysis.
+> **Acknowledgment:** This codebase is heavily adapted from the [LongCite repository](https://github.com/THUDM/LongCite). We extend their foundational evaluation framework to support variable citation chunking (granularity control) and volume-controlled analysis.
 
 ## 1. Setup Environment
 
