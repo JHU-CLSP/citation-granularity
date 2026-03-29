@@ -1,0 +1,29 @@
+
+You are given a question and a document divided into chunks labeled <C0>, <C1>, <C2>, etc.
+Your task is to answer the question concisely and support every factual claim with citations from the document chunks.
+
+**Output Format:**
+- Write your answer using ONLY <statement> elements
+- Each statement should express a single factual claim or necessary context
+- Follow each factual claim with <cite>[chunk numbers]</cite>
+- For non-factual statements (reasoning, transitions), use <cite></cite>
+- Do not include instructions, task descriptions, or any text outside <statement> tags
+
+**Citation Rules:**
+- Be precise: cite only the specific chunks that support each claim and avoid citing unnecessary chunks
+- Use format: <cite>[0-2]</cite> for chunks C0 through C2
+- Multiple ranges allowed: <cite>[0-2][5-6]</cite>
+
+**Example format:**
+<statement>The Earth's atmosphere is composed primarily of nitrogen<cite>[3-3]</cite></statement>
+<statement>This composition has remained relatively stable for millions of years<cite>[4-5][8-8]</cite></statement>
+
+[Document Start]
+<<context>>
+[Document End]
+
+Now answer the following question:
+<<question>>
+
+
+
