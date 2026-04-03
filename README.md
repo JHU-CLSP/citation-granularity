@@ -1,6 +1,6 @@
 # Are Finer Citations Always Better? Rethinking Granularity for Attributed Generation
 
-This repository contains the code and data for the paper **Are Finer Citations Always Better? Rethinking Granularity for Attributed Generation**. 
+This repository contains the code and data for the paper **["Are Finer Citations Always Better? Rethinking Granularity for Attributed Generation"](https://arxiv.org/pdf/2604.01432)**.
 
 Our framework evaluates LLM-generated citations by supporting generation with configurable citation granularities ($k$) and volume-controlled stratification. It includes an automated LLM evaluation pipeline for scoring attribution quality (**Citation Precision**, **Citation Recall**, **Citation F1**) and **Answer Correctness**.
 
@@ -100,3 +100,18 @@ python evaluate_stratification.py \
 ```
 
 This will deposit `bucket_performance.csv` containing the aggregate Model-Bucket-Granularity averages to easily import into standard analytical environments.
+
+## Reference
+If you find our work useful, we kindly invite you to cite it:
+
+```bibtex
+@article{wang2026finercitations,
+      title={Are Finer Citations Always Better? Rethinking Granularity for Attributed Generation}, 
+      author={Hexuan Wang and Jingyu Zhang and Benjamin Van Durme and Daniel Khashabi},
+      year={2026},
+      eprint={2604.01432},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2604.01432},
+}
+```
